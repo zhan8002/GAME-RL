@@ -24,7 +24,7 @@ To ensure the validity of IAT hooking operations based on the learned policy, we
 ![image](agent.JPG)
 
 ## IATHOOK
-![image](iathook.JPG)
+![image](iathoook.JPG)
 
 ## Baselines
-![image](baselines.JPG)
+![image](baseline.JPG)
