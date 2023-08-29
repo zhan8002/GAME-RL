@@ -20,7 +20,7 @@ We implement the no operation (no-op) attack, inserting API calls with valid (no
 The `observation_space` of the `gym` environments are a feature vector representing the malware sample. In this work，we use the extracted API call sequence as the state space the sequence call.
 
 ### Agents
-To ensure the validity of IAT hooking operations based on the learned policy, we incorporate an invalid action masking mechanism to avoid invalid choices. Additionally, we employ the auto-regressive policy head to ensure that the RL agent considers the coupling relationships between different actions during the policy learning process.
+To ensure the validity of IAT hooking operations based on the learned policy, we incorporate an `invalid action masking` mechanism to avoid invalid choices. Additionally, we employ the `auto-regressive policy head` to ensure that the RL agent considers the coupling relationships between different actions during the policy learning process.
 
 ![image](agent.JPG)
 
