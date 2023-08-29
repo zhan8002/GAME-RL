@@ -7,6 +7,7 @@ GAME-RL exposes OpenAI's `gym` environments to allow researchers to develop Rein
 
 Application Programming Interface (API) call is a set of definitions, protocols, and programs that enable interactions between software components.
 The model input is an API call sequence with length `𝐿 = 200` and dimension `𝐸 = 8`. The [Cuckoo sandbox](https://github.com/cuckoosandbox/cuckoo/wiki/Hooked-APIs-and-Categories) tracked a total of 312 API calls belonging to 17 categories.
+The target models consist of eight deep learning models (RNN, BiRNN, LSTM, BiLSTM, GRU, BiGRU, DNN, CNN) and three machine learning models (Support Vector Machine (SVM), Logistic Regression (LR), Random Forest (RF)). The detailed structure of the model as follows:
 
 ![image](models.JPG)
 
